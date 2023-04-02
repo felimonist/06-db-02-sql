@@ -1,5 +1,6 @@
 Задание 1.
 
+ ```
 version: '3'
 
 services:
@@ -14,6 +15,7 @@ services:
     volumes:
       - ./db-data/:/var/lib/postgresql/data/
       - ./db-backup/:/Work/BackUp/
+```
 
 ![slave](https://github.com/felimonist/06-db-02-sql/blob/main/img/1.JPG)
 
