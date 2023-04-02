@@ -52,6 +52,6 @@ sudo docker stop 6e6c045b5649
 docker run --rm -d -e POSTGRES_USER=test_admin_user -e POSTGRES_PASSWORD=515253 -e POSTGRES_DB=test_db -v /home/felimonist/Netology/virt-homeworks/06-db-02-sql/db-backup:/Work/feli_backup --name feli_pg12 postgres:12
 
 
-export PGPASSWORD=515253 && psql -h localhost -U test-admin-user -f /Work/feli_backup/test_db.backup test_db
+export PGPASSWORD=515253 && psql -h localhost -U test_admin_user -f /Work/feli_backup/test_db.backup test_db
 
 
